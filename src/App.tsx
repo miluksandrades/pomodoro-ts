@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { format } from "date-fns";
-import { FaPlay, FaPause, FaStop } from "react-icons/fa";
+import { FaPlay, FaPause, FaStop, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export function App() {
+  //links
+  const github = "https://github.com/miluksandrades";
+  const linkedIn = "https://www.linkedin.com/in/mil-lucas-andrade/";
+
   const periodTimer = 60 * 25;
   const shortTimer = 60 * 10;
   const pauseTimer = 60 * 5;
@@ -78,6 +82,18 @@ export function App() {
         <button className="stop" onClick={reset}>
           <FaStop />
         </button>
+      </div>
+
+      <div className="social-media">
+        <span>Desenvolvido por Lucas Andrade</span>
+        <div>
+          <a href={github} target="_blank" title="Github">
+            <FaGithub />
+          </a>
+          <a href={linkedIn} target="_blank" title="LinkedIn">
+            <FaLinkedin />
+          </a>
+        </div>
       </div>
     </main>
   );

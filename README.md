@@ -1,6 +1,7 @@
 <div style="text-align: center">
 <img src="print.png">
 </div>
+
 ### Criando um pomodoro utilizando ReactJS, Typescript e Styled-Components
 
 #### Desafios enfrentados

@@ -15,10 +15,10 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     main {
-    background: #171717;
-    width: 900px;
-    height: 100vh;
-    color: #ededed;
+        background: #171717;
+        width: 900px;
+        height: 100vh;
+        color: #ededed;
     }
 
     @media screen and (max-width: 900px) {
@@ -43,33 +43,33 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     .title {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding: 45px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 45px;
     }
 
     .title h2 {
-    font-size: 35px;
+        font-size: 35px;
     }
 
     .timer {
-    display: flex;
-    justify-content: center;
-    padding: 30px 25px;
-    align-items: center;
-    font-size: 75px;
+        display: flex;
+        justify-content: center;
+        padding: 30px 25px;
+        align-items: center;
+        font-size: 75px;
     }
 
     .timer div {
         width: 100%;
-    background: rgba(255, 255, 255, 0.22);
-    color: #fff;
-    padding: 15px;
-    font-size: 75px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
+        background: rgba(255, 255, 255, 0.22);
+        color: #fff;
+        padding: 15px;
+        font-size: 75px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
     }
 
     @media screen and (max-width: 900px) {
@@ -94,21 +94,22 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     .actions {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    gap: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
     }
 
     .actions button {
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
     }
 
     @media screen and (max-width: 900px){
@@ -122,25 +123,26 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     .actions button:hover {
-    filter: brightness(0.9);
+        filter: brightness(0.9);
     }
 
     .times {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 25px;
-    gap: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 25px;
+        gap: 45px;
     }
 
     .times button {
-    padding: 15px;
-    font-size: 25px;
-    border: none;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.22);
-    color: #fff;
-    width: 100%;
+        padding: 15px;
+        font-size: 25px;
+        border: none;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.22);
+        color: #fff;
+        width: 100%;
+        cursor: pointer;
     }
 
     @media screen and (max-width: 900px){
@@ -170,12 +172,44 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     .start {
-    background: #4e9f3d;
-    color: #fff;
+        background: #4e9f3d;
+        color: #fff;
     }
 
     .stop {
-    background: #b42b51;
-    color: #fff;
+        background: #b42b51;
+        color: #fff;
+    }
+
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 45px 25px;
+        gap: 15px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .social-media div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        
+    }
+
+    .social-media div a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.22)
+    }
+
+    .social-media svg{
+        font-size: 2rem;
+    }
+    
+    .social-media svg:hover{
+        transition: color 0.2s;
+        color: rgba(255, 255, 255, 0.5);
     }
 `;
