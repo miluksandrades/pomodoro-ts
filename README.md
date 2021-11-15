@@ -11,7 +11,7 @@
 - Responsividade e adaptação em dispositivos móveis
 - Subir a aplicação para o Vercel
 
-Para acessar o projeto [Clique aqui]()
+Para acessar o projeto [Clique aqui](https://pomodoro-miluksandrades.vercel.app)
 
 Para rodar o projeto:
 
